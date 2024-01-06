@@ -11,6 +11,9 @@
 /* header part */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 nav {
@@ -63,9 +66,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+
 }
 
 .banner-img {
@@ -252,22 +253,100 @@ main {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.resume-info-sub-tittle{
+
+.resume-info-sub-tittle {
     color: #757575;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
-.resume-info-des{
-    color:#757575;
+
+.resume-info-des {
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.download-cv{
+
+.download-cv {
     margin-top: 50px;
     margin-bottom: 113px;
     text-align: center;
 }
+
 /* footer part start */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    gap: 117px;
+}
+
+.connect,
+.message {
+    width: 50%;
+    text-align: left;
+}
+
+.connect-tittle {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.connect-des {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+
+.social-media>a>img {
+    margin-right: 24px;
+}
+
+.message-tittle {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.form {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    width: 461px;
+    height: 64px;
+    border: 0;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.textarea {
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 461px;
+    height: 180px;
+    padding-top: 18px;
+    padding-left: 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.b-submit {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 18px 39px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
